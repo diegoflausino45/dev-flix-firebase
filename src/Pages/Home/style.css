@@ -1,0 +1,38 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    width: 60%;
+}
+
+article{
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+}
+
+.filme{
+    display: flex;
+    flex-direction: column;
+}
+
+.filme h2{
+    padding: 1em 0;
+}
+
+.filme a{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0.8em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.filme img{
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    height: 350px;
+}

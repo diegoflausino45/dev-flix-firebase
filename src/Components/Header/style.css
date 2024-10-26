@@ -1,0 +1,33 @@
+header{
+    background-color: black;
+    font-weight: bold;
+    padding: 1.2em 0;
+    position: sticky;
+    top: 0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2em;
+}
+
+.favoritos a{
+    color: black;
+}
+
+.favoritos{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.favoritos:hover a{
+    color: blue;
+}

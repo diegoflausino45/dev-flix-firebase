@@ -1,0 +1,30 @@
+article.favoritos{
+    display: flex;
+    justify-content: space-between;
+}
+
+article.favoritos a{
+    color: blue;
+    border: 1px solid gray;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 0.65em;
+}
+
+.secao-favoritos{
+    width: 60%;
+    padding-top: 1em;
+    text-align: center;
+    margin: auto;
+}
+
+.links button{
+    margin-left: 1em;
+    padding: 1em;
+    color: white;
+    background-color: blue;
+    border-radius: 1em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
